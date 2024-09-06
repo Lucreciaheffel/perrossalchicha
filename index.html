@@ -4,29 +4,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <t<!DOCTYPE html>
     <title>&#x2764 PERROS SALCHICHAS</title>
+    <link rel="icon" href="./fotos/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
         <a href="./index.html"><img src="./fotos/logo.jpeg" alt="Perra Salchicha logo" class="imglogo"></a>
-        <h1>&#x2764 &#x2764 &#x2764 </h1>
-        <h2>PERROS SALCHICHAS</h2>
+        <h2 class="oculto" >PERROS SALCHICHAS</h2>
+        <button id="abrir" class="abrirmenu"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+          <button id="cerrar" class="cerrarmenu"><i class="bi bi-x-lg"></i></button>
+          <ul class="nav-list">
+            <li><a href="./paginas/contacto.html">CONTACTO</a></li>
+            <li><a href="./paginas/integrantes.html">INTEGRANTES</a></li>
+            <li><a href="./paginas/sobreesteespacio.html">NOSOTROS</a></li>
+          </ul>
+        </nav>
     </header>
-    <i class="fa-solid fa-bars"></i>
-    <br>
-    <nav class="navbar"> 
-        <ul>
-            <li>
-                <a href="./paginas/contacto.html">CONTACTO</a>
-            </li>
-            <li>
-                <a href="./paginas/integrantes.html">INTEGRANTES</a>
-            </li>
-            <li>
-                <a href="./paginas/sobreesteespacio.html">NOSOTROS</a>
-            </li>
-        </ul>
-    </nav>
+    
     <main>
         <h2>
           Conoce todo del Dachshund, conocido como perro salchicha
@@ -46,7 +42,7 @@
         <p>
         El dachshund es el 13º más popular de las 194 razas de perros reconocidas por el American Kennel Club (AKC). "Dachshund" significa "perro tejón" en alemán. Es el símbolo nacional de Alemania.
         </p>
-        <div class="titulos"></section>
+        <div class="titulos">
         <h2 class="titgen">CONTENIDO</h2>
             <div class="contenedor">
               <img src="./fotos/linda terrible.jpeg" alt="perra con plumas de almohadon roto" class="imgpromo">
@@ -88,5 +84,6 @@
       <a href="https://wa.me/9543364212793" target="_blank"> <i class="fa-brands fa-whatsapp"></i> </a>
       <script src="https://kit.fontawesome.com/8f2befed80.js" crossorigin="anonymous"></script>
     </footer>
+    <script src="./script.js"></script>
 </body>
 </html>
